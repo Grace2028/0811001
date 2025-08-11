@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>冰淇淋菜單</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #d16ba5;
+        }
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .item {
+            background-color: white;
+            border-radius: 15px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .item img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            background-color: #f0f0f0; /* 預留圖片背景 */
+        }
+        .price {
+            color: #ff7b54;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>🍦 冰淇淋菜單 🍦</h1>
+    <div class="menu">
+        <div class="item">
+            <img src="https://via.placeholder.com/200x150?text=冰淇淋1" alt="冰淇淋1">
+            <h3>草莓冰淇淋</h3>
+            <p class="price">$50</p>
+        </div>
+        <div class="item">
+            <img src="https://via.placeholder.com/200x150?text=冰淇淋2" alt="冰淇淋2">
+            <h3>巧克力冰淇淋</h3>
+            <p class="price">$60</p>
+        </div>
+        <div class="item">
+            <img src="https://via.placeholder.com/200x150?text=冰淇淋3" alt="冰淇淋3">
+            <h3>抹茶冰淇淋</h3>
+            <p class="price">$55</p>
+        </div>
+    </div>
+</body>
+</html>
